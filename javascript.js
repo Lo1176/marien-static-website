@@ -36,25 +36,25 @@ const initLetters = () => {
       offset: '-=600'
     });
 }
-
 initLetters();
 
-// Language translation for YOU MARIEN
-let langdata = {
-  "languages": {
-    "es": {
+console.log("Hello world");
+// // Language translation for YOU MARIEN
+// let langdata = {
+//   "languages": {
+//     "es": {
 
-    },
+//     },
 
-    "ca": {
+//     "ca": {
 
-    },
+//     },
 
-    "fr": {
+//     "fr": {
 
-    }
-  }
-};
+//     }
+//   }
+// };
 
 // define language with window hash
-if (window.location.hash)
+// if (window.location.hash)

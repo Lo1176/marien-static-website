@@ -452,9 +452,9 @@
   flex-direction: column;
 }
 
-.navbar .navbar-brand img {
+/*.navbar .navbar-brand img {
   width: 40px;
-}
+}*/
 
 .left-navbar {
   grid-area: gauche;
@@ -490,15 +490,14 @@
 }
 
 .navbar .dropdown .dropdown-toggle:after {
-      color:var(--main-font-color);
-      margin: 0;
-    }
+  color:var(--main-font-color);
+  margin: 0;
+}
 .navbar .dropdown .btn:focus {
-      box-shadow: none;
-    }
+  box-shadow: none;
+}
 .navbar .dropdown img {
-      max-width: 24px;
-    }
+  max-width: 24px;
 }
 
 #mainFlag {

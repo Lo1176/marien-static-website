@@ -40,6 +40,8 @@
       <!-- logo-yoga -->
       <div class="center-logo">
         <div class="moving-letters flex-start" type="submit">
+         <!--  <%= link_to root_path do %>
+          <% end %> -->
           <a href="#">
             <h1>
               <span class="text-wrapper">
@@ -53,18 +55,26 @@
               </span>
             </h1>
           </a>
-         <!--  <%= link_to root_path do %>
-          <% end %> -->
         </div>
-
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       </div>
 
       <!-- right links---------------- -->
       <!-- burger-to-x -->
       <div class="right-navbar burger-to-X">
-        <%= render 'shared/burger-to-X' %>
+        <div class="right-navbar burger-to-X">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          <ul id="menu">
+            <li class="nav-item"><a href="#about-me">Info</a></li>
+            <li class="nav-item"><a href="#portfolio">Projets</a></li>
+            <li class="nav-item"><a href="mailto:laurentbinder@gmail.com" target="_blank"><i class="far fa-envelope envelope "></i></a></li>
+          </ul>
+          </div>
+        </div>
       </div>
       <!-- extended-menu -->
       <div class="right-navbar extended-menu">

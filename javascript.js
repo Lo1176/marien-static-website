@@ -38,3 +38,23 @@ const initLetters = () => {
 }
 
 initLetters();
+
+// Language translation for YOU MARIEN
+let langdata = {
+  "languages": {
+    "es": {
+
+    },
+
+    "ca": {
+
+    },
+
+    "fr": {
+
+    }
+  }
+};
+
+// define language with window hash
+if (window.location.hash)

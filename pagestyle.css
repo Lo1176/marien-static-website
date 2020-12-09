@@ -151,7 +151,7 @@
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: $blue;
+  background:var(--blue);
 }
 
 /*
@@ -286,3 +286,87 @@
   object-position: 50% 42%;
 }
 
+/*card-student*/
+.container-student {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container-student .card-student {
+  min-width: 340px;
+  /*min-height: 260px;*/
+  padding: 16px;
+  margin: 4px;
+  border-radius: 4px;
+  background-color:var(--light-blue);
+  color:var(--dark-blue);
+  text-align: justify;
+  display: grid;
+  align-content: space-between;
+}
+.container-student .card-student h4 {
+  margin-bottom: 16px;
+  margin-top: 4px;
+}
+
+.container-student .card-img-a {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=360&q=80");
+}
+.container-student .card-img-b {
+  background-image: linear-gradient(rgba(25,0,0,0.1), rgba(30,0,0,0.2)), url("https://images.unsplash.com/photo-1504177151729-0e0600389766?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=460&q=80");
+  background-position: 50% 64%;
+
+}
+.container-student .card-img-c {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1498612753354-772a30629934?ixlib=rb-1.2.1&auto=format&fit=crop&w=360&q=80");
+
+}
+
+.text {
+  width: 400px;
+}
+
+.text p {
+  font-size: 12px;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color:var(--black);
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer-copyright svg {
+  color:var(--red);
+}
+
+.footer-link-credit a {
+  color:var(--black);
+  opacity: 0.55;
+  text-decoration: none;
+}
+.footer-link-credit a:hover {
+  opacity: 1;
+}

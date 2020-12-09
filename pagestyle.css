@@ -205,7 +205,7 @@
 
 #menu li {
   padding: 2px 0;
-  // font-size: 22px;
+/*font-size: 22px;*/
 }
 
 /*
@@ -258,8 +258,31 @@
     top: 50%;
     width: 100%;
     height: 1px;
-    // border-bottom: solid 1px #fff;
     left: 0;
     z-index: 1;
     background:var(--main-font-color);
 }
+
+/*card-info*/
+.card-info {
+  text-align: justify;
+  padding-bottom: 16px;
+}
+.card-info .avatar-large {
+  display: none;
+  max-width: none;
+  width: 104px;
+}
+.card-info .avatar-image{
+  text-align: center;
+}
+.card-info .img-right {
+  margin-left: 16px;
+}
+.card-info .img-right img {
+  width: fit-content;
+  height: 360px;
+  object-fit: cover;
+  object-position: 50% 42%;
+}
+

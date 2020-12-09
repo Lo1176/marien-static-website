@@ -19,9 +19,13 @@
   --black: #171A21;
   --white: #FFF;
 
-  --logo-color: --sand;
-  --main-font-color: --dark-blue;
+  --logo-color:var(--sand);
+  --main-font-color:var(--dark-blue);
+
+  font-family: 'Josefin Sans', sans-serif;
 }
+
+
 /* avatar */
 .avatar {
   width: 40px;
@@ -57,7 +61,7 @@
   text-align: center;
 }
 
-.color-box svg {
+.color-box img {
   height: 180px;
   /*// height: 18.6vw;*/
   width: 180px;
@@ -68,8 +72,8 @@
 .slogan {
   margin-top: 24px;
 }
-.slogan i {
-  color: --logo-color;
+.slogan svg {
+  color:var(--logo-color);
   /*// font-size: 2.3vw;*/
 }
 
@@ -415,7 +419,7 @@
   transform-origin: 0.5 0;
 }
 
-.moving-letters .logo-img {
+.moving-letters .logo-img img {
   /*font-family: Baskerville, "EB Garamond", serif;*/
   /*font-style: italic;*/
   /*font-weight: 400;*/

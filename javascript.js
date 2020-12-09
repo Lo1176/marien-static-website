@@ -38,7 +38,6 @@ const initLetters = () => {
 }
 initLetters();
 
-console.log("Hello world");
 // // Language translation for YOU MARIEN
 // let langdata = {
 //   "languages": {

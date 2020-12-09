@@ -1,23 +1,23 @@
 /*color*/
 :root {
-  --red: #890620;
-  --dark-red: #2C0703;
-  --pink: #A34861;
-  --softest-pink: #FFFCFC;
-  --soft-pink: #DA9F93;
-  --lighter-pink: #da6384;
-  --blue: #6d87a8;
-  --dark-blue: #273043;
-  --light-blue: #f8f9fa;
-  --sand: #e1c2ac;
-  --brown: #774E24;
-  --yellow: #FEF208;
-  --orange: #E67E22;
-  --green: #1EDD88;
-  --gray: #545E75;
-  --light-gray: #EBD4CB;
-  --black: #171A21;
-  --white: #FFF;
+  --red: #890620 !important;
+  --dark-red: #2C0703 !important;
+  --pink: #A34861 !important;
+  --softest-pink: #FFFCFC !important;
+  --soft-pink: #DA9F93 !important;
+  --lighter-pink: #da6384 !important;
+  --blue: #6d87a8 !important;
+  --dark-blue: #273043 !important;
+  --light-blue: #f8f9fa !important;
+  --sand: #e1c2ac !important;
+  --brown: #774E24 !important;
+  --yellow: #FEF208 !important;
+  --orange: #E67E22 !important;
+  --green: #1EDD88 !important;
+  --gray: #545E75 !important;
+  --light-gray: #EBD4CB !important;
+  --black: #171A21 !important;
+  --white: #FFF !important;
 
   --logo-color:var(--sand);
   --main-font-color:var(--dark-blue);
@@ -25,6 +25,23 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
+/*a {
+  color: #0353A4;
+  text-decoration: none;
+
+}
+a:hover {
+  color: #0353A4;
+  text-decoration: none;
+}
+
+p {
+  color: #FFF;
+}*/
 
 /* avatar */
 .avatar {
@@ -437,14 +454,14 @@
 }
 
 /*navbar*/
-.navbar {
+body .navbar {
   /*justify-content: space-between;*/
   background:var(--white);
   padding: 8px 24px;
-  display: grid;
+  display: grid !important;
   justify-content: space-between;
   grid-template-columns: 32vw 21vw 32vw;
-  grid-template-rows: auto;
+  grid-template-rows: 48px;
   grid-template-areas: "gauche logo droite";
 }
 

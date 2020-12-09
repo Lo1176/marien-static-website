@@ -19,19 +19,19 @@
         <div id="mainFlag" class="dropdown">
           <input type="checkbox" />
           <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <% if params[:locale] == nil %>
+            <!-- <% if params[:locale] == nil %>
             <%= link_to image_tag('spain.png'), { locale: nil } %>
             <% elsif params[:locale] == 'ca' %>
             <%= link_to image_tag('catalonia.png'), {locale: 'ca'} %>
             <% else %>
             <%= link_to image_tag('france.png'), { locale: 'fr' } %>
 
-            <% end %>
+            <% end %> -->
           </button>
           <ul id="flags">
-            <%= link_to image_tag('spain.png'), { locale: nil }, class: "dropdown-item" %>
-            <%= link_to image_tag('catalonia.png'), {locale: 'ca'}, class: "dropdown-item" %>
-            <%= link_to image_tag('france.png'), { locale: 'fr' }, class: "dropdown-item" %>
+            <img src="images/spain.png" alt="spain flag" class="dropdown-item">
+            <img src="images/catalonia.png" alt="catalonia flag" class="dropdown-item">
+            <img src="images/france.png" alt="french flag" class="dropdown-item">
           </ul>
         </div>
 

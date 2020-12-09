@@ -17,8 +17,10 @@
   --gray: #545E75;
   --light-gray: #EBD4CB;
   --black: #171A21;
+  --white: #FFF;
 
   --logo-color: --sand;
+  --main-font-color: --dark-blue;
 }
 /* avatar */
 .avatar {
@@ -73,7 +75,7 @@
 
 .banner h1 {
   margin: 0;
-  color: white;
+  color:var(--white);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 76px;
   /*// font-size: 9.65vw;*/
@@ -84,7 +86,7 @@
 .banner p {
   font-size: 20px;
   /*// font-size: 2.49vw;*/
-  color: white;
+  color:var(--white);
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   margin-top: 0;
@@ -124,7 +126,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: $dark-blue;
+  background:var(--dark-blue);
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -183,7 +185,7 @@
   top: 148px;
   right: -80px;
 
-  background: $white;
+  background:var(--white);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -221,4 +223,43 @@
 
     transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
+}
+
+/*card area*/
+.card-area {
+  margin-bottom: 32px;
+}
+
+/*line separation*/
+.title-line {
+  width: 100%;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 28px;
+  position: relative;
+  background-color:var(--white);
+}
+.title-line h3 {
+  background-color:var(--white); /* Same as the parents Background */
+  width: auto;
+  display: inline-block;
+  z-index: 3;
+  padding: 0 20px;
+  color:var(--main-font-color);
+  position: relative;
+  font-family: raleway;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.title-line:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    // border-bottom: solid 1px #fff;
+    left: 0;
+    z-index: 1;
+    background:var(--main-font-color);
 }

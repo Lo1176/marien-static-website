@@ -43,6 +43,7 @@ a {
 a:hover {
   color:var(--dark-blue) !important;
   text-decoration: none;
+  opacity: 1;
 }
 
 p {

@@ -35,12 +35,12 @@ body {
 }
 
 a {
-  color:var(--blue);
+  color:var(--dark-blue);
   text-decoration: none;
 
 }
 a:hover {
-  color:var(--blue);
+  color:var(--dark-blue);
   text-decoration: none;
 }
 
@@ -208,11 +208,8 @@ p {
   position: absolute;
   width: 300px;
   /*width: 100vw;*/
-  margin: -100px 0 0 0;
-  padding: 125px 32px 16px 32px;
+  padding: 16px 32px 16px 32px;
   border-radius: 2px;
-  /*top: 148px;*/
-  /*right: -80px;*/
   right: -20px;
 
   background:var(--white);

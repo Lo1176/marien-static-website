@@ -35,12 +35,13 @@ body {
 }
 
 a {
-  color:var(--dark-blue);
+  color:var(--dark-blue) !important;
   text-decoration: none;
+  opacity: 0.8;
 
 }
 a:hover {
-  color:var(--dark-blue);
+  color:var(--dark-blue) !important;
   text-decoration: none;
 }
 

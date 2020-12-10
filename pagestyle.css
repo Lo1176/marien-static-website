@@ -22,7 +22,8 @@
   --logo-color:var(--sand);
   --main-font-color:var(--dark-blue);
 
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif !important;
+
 }
 
 html {

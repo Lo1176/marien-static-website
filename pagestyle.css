@@ -34,19 +34,19 @@ body {
   margin: 0;
 }
 
-/*a {
-  color: #0353A4;
+a {
+  color:var(--blue);
   text-decoration: none;
 
 }
 a:hover {
-  color: #0353A4;
+  color:var(--blue);
   text-decoration: none;
 }
 
 p {
   color: #FFF;
-}*/
+}
 
 /* avatar */
 .avatar {
@@ -263,6 +263,7 @@ p {
 
 /*line separation*/
 .title-line {
+  z-index: 0;
   width: 100%;
   margin-bottom: 16px;
   text-align: center;

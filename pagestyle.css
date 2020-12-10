@@ -311,7 +311,7 @@ p {
   margin-left: 16px;
 }
 .card-info .img-right img {
-  width: fit-content;
+  /*width: fit-content;*/
   height: 360px;
   object-fit: cover;
   object-position: 50% 42%;

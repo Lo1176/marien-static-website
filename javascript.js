@@ -38,7 +38,7 @@ const initLetters = () => {
 }
 initLetters();
 
-var language = window.navigator.userLanguage || window.navigator.language;
+// var language = window.navigator.userLanguage || window.navigator.language;
 // alert(language.substring(0, 2));
 
 // // Language translation for YOU MARIEN

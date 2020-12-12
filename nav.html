@@ -4,9 +4,7 @@
   <div class="left-navbar">
     <div id="mainFlag" class="dropdown">
       <input type="checkbox" />
-      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-      </button><script type="text/javascript">
+      <p>FR</p><script type="text/javascript">
             var language = window.navigator.userLanguage || window.navigator.language;
             var iconPaths = ['images/spain.png', 'images/catalonia.png', 'images/france.png'];
             var icons = new Array();
@@ -14,8 +12,10 @@
               icons[i] = new Image();
               icons[i].src = iconPaths[i];
             }
-            // console.log(icons[0])
-            icons[2];
+            // console.log(icons[0]);
+            console.log(document.documentElement.lang);
+            console.log(language);
+            // icons[2];
               // let langId = language.substring(0, 2);
               // if (langId === "ca") {
               //   icons[1];
@@ -24,7 +24,10 @@
               // } else {
               //   icons[0];
               // }
-          </script><p>FR</p>
+          </script>
+      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+      </button>
       <ul id="flags">
         <a href="#es" data-reload>
           <img src="images/spain.png" alt="spain flag" class="active">
@@ -98,4 +101,3 @@
     </div>
   </div>
 </div>
-

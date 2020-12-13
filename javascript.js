@@ -59,15 +59,15 @@ var language = {
 if (window.location.hash) {
   if (window.location.hash === "#es") {
     bioTitle.textContent = language.es.bioTitle;
-    title.textContent = language.es.maintitle;
+    bioContent.textContent = language.es.bioContent;
   }
   else if (window.location.hash === "#ca") {
     bioTitle.textContent = language.ca.bioTitle;
-    title.textContent = language.ca.maintitle;
+    bioContent.textContent = language.ca.bioContent;
   }
   else if (window.location.hash === "#fr") {
     bioTitle.textContent = language.fr.bioTitle;
-    title.textContent = language.fr.maintitle;
+    bioContent.textContent = language.fr.bioContent;
   }
 };
 

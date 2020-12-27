@@ -4,7 +4,7 @@ var language = {
   es: {
     index: {
       bioTitle: "Hola!",
-      bioContent: "Todo en espagñol",
+      bioContent: "Todo en espagñol cabron",
       student1: "",
       student2: "",
       student3: ""
@@ -34,12 +34,12 @@ var language = {
 
 // Define language via window hash
 if (window.location.hash) {
-  if (window.location.hash === "#es" || "") {
-    bioTitle.innerHTML = language.es.index.bioTitle;
-    bioContent.innerHTML = language.es.index.bioContent;
-    student1.innerHTML = language.es.index.student1;
-    student2.innerHTML = language.es.index.student2;
-    student3.innerHTML = language.es.index.student3;
+  if (window.location.hash === "#fr") {
+    bioTitle.innerHTML = language.fr.index.bioTitle;
+    bioContent.innerHTML = language.fr.index.bioContent;
+    student1.innerHTML = language.fr.index.student1;
+    student2.innerHTML = language.fr.index.student2;
+    student3.innerHTML = language.fr.index.student3;
   }
   else if (window.location.hash === "#ca") {
     bioTitle.innerHTML = language.ca.index.bioTitle;
@@ -48,12 +48,13 @@ if (window.location.hash) {
     student2.innerHTML = language.ca.index.student2;
     student3.innerHTML = language.ca.index.student3;
   }
-  else if (window.location.hash === "#fr") {
-    bioTitle.innerHTML = language.fr.index.bioTitle;
-    bioContent.innerHTML = language.fr.index.bioContent;
-    student1.innerHTML = language.fr.index.student1;
-    student2.innerHTML = language.fr.index.student2;
-    student3.innerHTML = language.fr.index.student3;
+  else {
+    bioTitle.innerHTML = language.es.index.bioTitle;
+    bioContent.innerHTML = language.es.index.bioContent;
+    student1.innerHTML = language.es.index.student1;
+    student2.innerHTML = language.es.index.student2;
+    student3.innerHTML = language.es.index.student3;
+
   }
 };
 

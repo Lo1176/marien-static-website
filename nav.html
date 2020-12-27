@@ -7,6 +7,11 @@
       <p></p>
       <script type="text/javascript">
         var iconPaths = ['images/spain.png', 'images/catalonia.png', 'images/france.png'];
+        var icons = new Array();
+        for(var i in iconPaths) {
+          icons[i] = new Image();
+          icons[i].src = iconPaths[i];
+        }
         if (window.location.hash === "#ca") {
           icons[1].src;
         } else if (window.location.hash === "#fr") {

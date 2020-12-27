@@ -4,7 +4,7 @@ var language = {
   es: {
     index: {
       bioTitle: "Hola!",
-      bioContent: "This is the main title",
+      bioContent: "Todo en espagñol",
       student1: "",
       student2: "",
       student3: ""
@@ -34,7 +34,7 @@ var language = {
 
 // Define language via window hash
 if (window.location.hash) {
-  if (window.location.hash === "#es") {
+  if (window.location.hash === "#es" || "") {
     bioTitle.innerHTML = language.es.index.bioTitle;
     bioContent.innerHTML = language.es.index.bioContent;
     student1.innerHTML = language.es.index.student1;

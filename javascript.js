@@ -1,5 +1,5 @@
 const initLetters = () => {
-  var textWrapper = document.querySelector('.moving-letters .letters');
+  // var textWrapper = document.querySelector('.moving-letters .letters');
   // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
   anime.timeline({loop: false})
     .add({

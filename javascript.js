@@ -3,7 +3,7 @@
 var language = {
   es: {
     index: {
-      bioTitle: "Hola!",
+      bioTitle: "Mi nombre es Marién Garcia, soy de Barcelona.",
       bioContent: "Todo en espagñol cabron",
       student1: "",
       student2: "",

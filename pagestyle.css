@@ -318,6 +318,11 @@ p {
   object-fit: cover;
   /*object-position: 50% 42%;*/
 }
+/*diapo*/
+.diapo{
+  position: relative;
+  overflow: hidden;
+}
 
 /*card-student*/
 .container-student {

@@ -26,6 +26,12 @@ window.onload = () => {
   // Gérer le survol de la souris
   diapo.addEventListener("mouseover", stopTimer)
   diapo.addEventListener("mouseout", startTimer)
+
+  // Mise en oeuvre du "responsive"
+  window.addEventListener("resize", () => {
+      slideWidth = diapo.getBoundingClientRect().width
+      slideNext()
+  })
 }
 
 /**
@@ -77,9 +83,3 @@ function stopTimer(){
 function startTimer(){
     timer = setInterval(slideNext, 4000)
 }
-
-// Mise en oeuvre du "responsive"
-window.addEventListener("resize", () => {
-    slideWidth = diapo.getBoundingClientRect().width
-    slideNext()
-})

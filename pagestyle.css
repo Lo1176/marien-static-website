@@ -309,14 +309,14 @@ p {
 .card-info .avatar-image{
   text-align: center;
 }
-.card-info .img-right {
-  margin-left: 16px;
+.card-info .img-hatha {
+  display: flex;
+  justify-content: center;
 }
-.card-info .img-right img {
-  /*width: fit-content;*/
-  height: 360px;
+.card-info .img-hatha img {
+  width: 80vw;
   object-fit: cover;
-  object-position: 50% 42%;
+  /*object-position: 50% 42%;*/
 }
 
 /*card-student*/
@@ -614,18 +614,18 @@ body .navbar {
       grid-template-columns: 16vw 48vw 16vw;
 
     }
-    .card-info .img-right {
-        margin-left: 0;
+    .card-info .img-hatha {
+        /*margin-left: 0;*/
     }
 
 }
 
 @media (min-width: 768px) {
     .card-info {
-      display: flex;
+      display: inline
     }
     .burger-to-X {
-      /*display: none*/
+      /*display: none
     }
 
 }

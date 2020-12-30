@@ -309,15 +309,6 @@ p {
 .card-info .avatar-image{
   text-align: center;
 }
-.card-info .img-hatha {
-  display: flex;
-  justify-content: center;
-}
-.card-info .img-hatha img {
-  width: 80vw;
-  object-fit: cover;
-  /*object-position: 50% 42%;*/
-}
 /*diapo*/
 .diapo{
   position: relative;

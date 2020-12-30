@@ -1,26 +1,32 @@
-// On récupère le conteneur principal du diaporama
-const diapo = document.querySelector(".diapo")
-
-// On récupère le conteneur de tous les éléments
-let elements = document.querySelector(".elements")
-
-// On récupère un tableau contenant la liste des diapos
-let slides = Array.from(elements.children)
-
-// On récupère les deux flèches
-let next = document.querySelector("#nav-right")
-let prev = document.querySelector("#nav-left")
-
 // Variables globales
 let compteur = 0 // Compteur qui permettra de savoir sur quelle slide nous sommes
-let timer, slideWidth
+let timer, elements, slides, slideWidth
 
-// On calcule la largeur visible du diaporama
-slideWidth = diapo.getBoundingClientRect().width
+window.onload = () => {
+  // On récupère le conteneur principal du diaporama
+  const diapo = document.querySelector(".diapo")
+  // On récupère le conteneur de tous les éléments
+  elements = document.querySelector(".elements")
+  // On récupère un tableau contenant la liste des diapos
+  slides = Array.from(elements.children)
+  // On calcule la largeur visible du diaporama
+  slideWidth = diapo.getBoundingClientRect().width
 
-// On met en place les écouteurs d'évènements sur les flèches
-next.addEventListener("click", slideNext)
-prev.addEventListener("click", slidePrev)
+  // On récupère les deux flèches
+  let next = document.querySelector("#nav-right")
+  let prev = document.querySelector("#nav-left")
+  // On met en place les écouteurs d'évènements sur les flèches
+  next.addEventListener("click", slideNext)
+  prev.addEventListener("click", slidePrev)
+
+  // Automatiser le diaporama
+  /* Nous utiliseront un intervalle, stocké dans la variable "timer" pour faire défiler le diaporama toutes les 4 secondes
+  */
+  timer = setInterval(slideNext, 4000)
+  // Gérer le survol de la souris
+  diapo.addEventListener("mouseover", stopTimer)
+  diapo.addEventListener("mouseout", startTimer)
+}
 
 /**
  * Cette fonction fait défiler le diaporama vers la droite
@@ -56,14 +62,7 @@ function slidePrev(){
     elements.style.transform = `translateX(${decal}px)`
 }
 
-// Automatiser le diaporama
-/* Nous utiliseront un intervalle, stocké dans la variable "timer" pour faire défiler le diaporama toutes les 4 secondes
-*/
-timer = setInterval(slideNext, 4000)
 
-// Gérer le survol de la souris
-diapo.addEventListener("mouseover", stopTimer)
-diapo.addEventListener("mouseout", startTimer)
 
 /**
  * Cette automatisation a un inconvénient, elle ne s'arrête jamais, même lorsque nous cliquons sur une flèche.

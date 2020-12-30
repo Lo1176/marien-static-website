@@ -62,8 +62,6 @@ function slidePrev(){
     elements.style.transform = `translateX(${decal}px)`
 }
 
-
-
 /**
  * Cette automatisation a un inconvénient, elle ne s'arrête jamais, même lorsque nous cliquons sur une flèche.
  * Nous allons donc mettre en place un arrêt au survol du diaporama.

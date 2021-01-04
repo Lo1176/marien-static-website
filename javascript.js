@@ -45,7 +45,7 @@ var language = {
 // -------- END translation section FOR MARIEN --------- //
 
 // Define language via window hash
-if (window.location.hash) {
+if (window.location.pathname === "/marien-static-website/" || "/index.html") {
   if (window.location.hash === "#fr") {
     bioTitle.innerHTML = language.fr.index.bioTitle;
     bioContent.innerHTML = language.fr.index.bioContent;
@@ -66,8 +66,23 @@ if (window.location.hash) {
     student1.innerHTML = language.es.index.student1;
     student2.innerHTML = language.es.index.student2;
     student3.innerHTML = language.es.index.student3;
+  }
+else if (window.location.pathname === "/yoga.html") {
+  if (window.location.path === "#fr") {
+    hathaContent.innerHTML = language.fr.yoga.hathaContent;
+    nidraContent.innerHTML = language.fr.yoga.nidraContent;
+
 
   }
+  else if (window.location.hash === "#ca") {
+    hathaContent.innerHTML = language.ca.yoga.hathaContent;
+    nidraContent.innerHTML = language.ca.yoga.nidraContent;
+  }
+  else {
+    hathaContent.innerHTML = language.es.yoga.hathaContent;
+    nidraContent.innerHTML = language.es.yoga.nidraContent;
+  }
+}
 };
 
 // I think that adding the hash to the url and reloading the page was happening at the same time thus the timeout for the reloadPage function.

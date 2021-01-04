@@ -11,13 +11,16 @@
       </button>
       <ul id="flags">
         <a href="#es" onclick="reloadPage()">
-          <img src="images/spain.png" alt="spain flag" class="active">
+          <img src="images/spain.png" alt="spain flag" class="active"><script type="text/javascript">actualLanguage.innerHTML = window.location.hash.substring(1, 3);
+        localStorage.setItem(language, actualLanguage.innerHTML)</script>
         </a>
         <a href="#ca" onclick="reloadPage()">
-          <img src="images/catalonia.png" alt="catalonia flag">
+          <img src="images/catalonia.png" alt="catalonia flag"><script type="text/javascript">actualLanguage.innerHTML = window.location.hash.substring(1, 3);
+        localStorage.setItem(language, actualLanguage.innerHTML)</script>
         </a>
         <a href="#fr" onclick="reloadPage()">
-          <img src="images/france.png" alt="french flag">
+          <img src="images/france.png" alt="french flag"><script type="text/javascript">actualLanguage.innerHTML = window.location.hash.substring(1, 3);
+        localStorage.setItem(language, actualLanguage.innerHTML)</script>
         </a>
       </ul>
     </div>

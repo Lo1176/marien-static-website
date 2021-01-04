@@ -9,6 +9,10 @@ var language = {
       student2: "<p><em>Con mi pareja, descubrimos el Yoga Nidra gracias a Marién en 2018. Su docencia es muy agradable y su pasión se nota en cada momento. Su suavidad, cuidado y conocimiento hacen que podamos disfrutar plenamente de las clases. En cada sesión, no sólo viajamos y nos relajamos mentalmente, sino también aliviamos tensiones corporales.<br>¡Una profesora 100% recomendable!</em></p><p><em> - Estrella y Thibault</em></p>",
       student3: "<p><em>Nuestro equipo está más que contento con las sesiones de yoga que nos imparte Marién cada semana en nuestra oficina en Barcelona. La práctica de yoga nos ayuda a estar más consciente y enfocarnos en lo que realmente nos importa, tanto a nivel personal como profesional.</em></p><p><em> - Steffen Schwörer, GlobalCAD</em></p>"
     }
+    yoga: {
+      hathaContent: "español",
+      nidraContent: "hola"
+    }
   },
   ca: {
     index: {
@@ -19,6 +23,10 @@ var language = {
       student3: "<p><em>El nostre equip està més que content amb les sessions de ioga que imparteix la Marién cada setmana a  la nostra oficina de Barcelona. La pràctica de ioga ens ajuda a estar més conscients i poder-nos centrar en allò que realmente ens importa, tant a nivel personal com a nivell profesional.</em></p><p><em> - Steffen Schwörer, GlobalCAD</em></p>"
 
     }
+    yoga: {
+      hathaContent: "catalan",
+      nidraContent: "ciao"
+    }
   },
   fr: {
     index: {
@@ -27,6 +35,10 @@ var language = {
       student1: "<p><em>La pratique du Hatha Yoga avec Marién m’a apporté une autre aproche pour comprendre et pratiquer le yoga d’une manière plus versatile; je peux connecter et travailler chaque posture et ressentir comment mon corps répond à chaque mouvement. Ainsi que la prise de conscience de ma respiration à chaque séance, et au fur et à mesure que j’avance dans ma pratique, je constate que mon corps devient de plus en plus souple.</em></p><p><em> - Xus</em></p>",
       student2: "<p><em>Avec mon compagnon, nous avons découvert le Yoga Nidra grâce avec Marién en 2018. Son enseignement est très agréable et sa passion se ressent à chaque instant. Sa douceur, son attention et ses connaissances nous font profiter pleinement des cours. Lors de chaque séance, non seulement nous voyageons et nous nous détendons mentalement, mais nous soulageons également les tensions corporelles. Un enseignant recommandé à 100% !</em></p><p><em> - Estrella et Thibault</em></p>",
       student3: "<p><em>Notre équipe est ravie des séances de yoga que Marién nous donne toutes les semaines au bureau de Barcelone. La pratique du yoga nous aide à être plus conscients et à se concentrer. Ce qui est vraiment important pour nous, au niveau professionnel et personnel.</em></p><p><em> - Steffen Schwörer, GlobalCAD</em></p>"
+    }
+    yoga: {
+      hathaContent: "<h4>Le Hatha yoga est le yoga le plus pratiqué en Occident</h4><br><p>Le Hatha Yoga est une science, un art, une pratique individuelle, une philosophie de vie, origniaire de l’Inde avec plus de 3.000 ans d’antiquité.<br><br>La pratique du yoga consiste à la réalisation de séquences de postures plus ou moins dynami-ques; à l’alignement du corps, la respiration consciente, la concentration et la rélaxation comme principes fondamentaux.<br><br>Une bonne definition pourrait être: le Hatha Yoga c’est le travail avec le corps physique afin d’atteindre un ëtat de superconsicience.<br><br>Notre corps est notre outil de travail pour atteindre cet état meditatif élevé.<br>wbrWLa méditation est notre legs à tous. C’est quelque chose qu’il est en notre pouvoir et de notre devoir d’expérimenter spontanément. Cependant, notre mode de vie nous en détourne. Nous sommes toujours tendus parce que nous ne connaissons pas notre nature profonde. Nous essayons de faire des choses que nous croyons nécessaires même si elles sont contraires à notre nature. Il y a conflit permanent entre ce qui est et ce que nous voulons. Nous voulons toujours devenir quelque chose au lieu de nous contenter d’être, tout simplement. Si seulement nous pouvrions faire coinci-der ce que nous sommes avec ce que nous désirons, alors la méditation se ferait automatique-ment.<br><h5><em>(extrait du livre Meditations tantriques de Swami Satyananda Saraswati)</em></h5><br><br>Pendant mes cours, on travaille la respiration consciente, l’alignement dans chaque posture et la partie la plus importante, l’observation de soi, qui nous emmenera progressivement vers un état de plus en plus elevée et subtile.</p>",
+      nidraContent: "<p>Le Yoga Nidra a été fondé par Swami Satyananda Saraswati dans les années 60’ ainsi que la Bihar School of Yoga. Le Yoga Nidra est un style de yoga originaire des pratiques tradiitionnelles tantri-ques de nyasa. Il consiste en une profonde meditation guidée estructurée en neuf étapes dans les-quelles le profeseur, avec sa voix vous guide vers un voyage interieur là ou toutes les tensions physiques, mentales et emotionnelles se relachent, pour quelques instants, se rendant au som-meill éveillé…le Yoga Nidra est un système d’elimination de tensions ultra-efectif.<br>Il est aussi consideré comme un yoga thérapeutique.<br>La pratique de Yoga Nidra harmonise notre potentiel inconscient et notre éveil intérieur.<br>Les séances peuvent durer entre 20 et 45 minutes, on est allongés sur le dos, en posture de sa-vasana.</p>"
     }
   }
 };
